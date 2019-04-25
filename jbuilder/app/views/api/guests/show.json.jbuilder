@@ -1,0 +1,7 @@
+
+json.partial! 'guest', guest:@guest 
+ 
+@guest.gifts.each do |gift|
+     json.title gift.title
+    json.description gift.description
+end
