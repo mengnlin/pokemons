@@ -1,3 +1,2 @@
-const selectAllPokemon = state =>(
-   state.entities.pokemon
-)
+const selectAllPokemon = state =>
+   Object.values(state.entities.pokemon);
